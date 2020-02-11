@@ -4,4 +4,8 @@ RSpec.describe RspecHoneycombFormatter do
   it 'has a version number' do
     expect(RspecHoneycombFormatter::VERSION).not_to be nil
   end
+
+  it { fail 'test' }
+
+  pending { fail 'pending' }
 end
