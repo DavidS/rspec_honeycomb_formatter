@@ -5,3 +5,4 @@ cache: bundler
 rvm:
   - 2.5.7
 before_install: gem install bundler -v 2.1.4
+script: env | sort
